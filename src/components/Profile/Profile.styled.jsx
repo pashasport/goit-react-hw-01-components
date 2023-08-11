@@ -3,14 +3,12 @@ import styled from '@emotion/styled';
 export const ProfileWrap = styled.div`
   width: 340px;
   margin: 0 auto;
-  padding: 70px 50px;
-  background-color: darkgrey;
+
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
 export const Description = styled.div`
-  width: 240px;
   height: 220px;
   margin: 0 auto;
   padding: 30px;
@@ -46,7 +44,6 @@ export const Location = styled.p`
 `;
 
 export const Stats = styled.ul`
-  width: 302px;
   height: 100px;
   background-color: gainsboro;
   margin: 0 auto;

@@ -11,16 +11,18 @@ export const TransactionHistoryTable = styled.table`
   & td {
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
   }
 
   & th {
-    background-color: lightgray;
+    background-color: rgb(72, 175, 208);
     font-weight: bold;
+    border: 2px solid black;
   }
 
   & td {
     background-color: white;
+    border: 2px solid black;
   }
 
   & tr:nth-of-type(even) {

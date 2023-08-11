@@ -1,14 +1,18 @@
 import styled from '@emotion/styled';
 
 export const List = styled.ul`
-  margin: 20px;
+  margin: 40px;
+  padding: 30px 0;
+  background-color: white;
+  border-radius: 10px;
+  width: auto;
 `;
 
 export const Item = styled.li`
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  background-color: yellow;
+  background-color: white;
   width: 300px;
   margin-left: auto;
   margin-right: auto;

@@ -5,7 +5,7 @@ export const StatisticsSection = styled.section`
   margin-left: auto;
   margin-right: auto;
   width: 300px;
-  padding: 60px 60px;
+
   background-color: blanchedalmond;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -26,11 +26,11 @@ export const Title = styled.h2`
 `;
 
 export const StatList = styled.ul`
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
-  padding: 0;
 `;
 
 export const StatItem = styled.li`
