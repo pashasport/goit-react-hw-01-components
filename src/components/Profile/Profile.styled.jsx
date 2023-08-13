@@ -60,7 +60,6 @@ export const ListItem = styled.li`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-right: 1px solid gray;
   flex: 1;
   text-align: center;
 

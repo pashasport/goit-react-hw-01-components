@@ -12,10 +12,10 @@ export const StatisticsSection = styled.section`
 `;
 
 export const Title = styled.h2`
+  color: grey;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 15px 0;
   text-align: center;
   text-transform: uppercase;
   background-color: white;
